@@ -1,117 +1,729 @@
-/* this is where all of your CSS styles go */
+/* -----------------General styling------------------------ */
 
-body{
-	margin: 0;
-	background: #FFFFFF;
+@font-face{
+	font-family: galano;
+	src: url("../fonts/Galano.otf");
 }
 
-p{
-	font-family: avenir;
+@font-face{
+	font-family: galano2;
+	src: url("../fonts/Galano2.otf");
 }
 
-.bodieseverywhere{
-	font-family: avenir;
-	font-size: 0.8em;
-	line-height: 1.2em;
-	text-align: left;
-	width: 40%;
-	margin-left: 30%;
 
-}
-
-#main{
-	max-width: 1000px;
-	background: #FFFFFF;
-	margin: auto;
-	padding: none;
-}
-
-#showstopper{
-	width: 100%;
-	height: 400px;
-	background: #FFFFFF;
-	padding: none;
-	margin-top: 0px;
-	margin-bottom: 2px;
-	padding: none;
-}
-
-#title{
-	font-family: avenir;
-	text-transform: lowercase;
-	font-size: 7em;
-	text-align: center;
-	line-height: 1em;
-	position: relative;
-	margin-top: 20px;
-	margin-bottom: 10px;
-	
-	
-}
-
-#details{
-	font-family: avenir;
-	font-size: 2em;
-	text-align: center;
-}
-#showdescription{
-	width: 100%;
-	height: 400px;
-	background: none;
-	padding: none;
-	margin-top: 2px;
-	margin-bottom: 2px;
-	padding: none;
-	border: 2px dashed #292929;
-}
-
-#gallery{
-	width: 100%;
-	background: #FFFFFF;
-	margin-top: 2px;
-	margin-bottom: 2px;
-	padding: none;
-	display: inline-block;
-}
-
-#gallery .mix{
+.active{
 	display: none;
 }
 
+/* ------------- Layout Container styles -----------------*/
 
-.wowthatfacethough{
-	width: 23%;
-	height: 400px;
-	overflow:none;
-	float: left;
-	margin-right:2px;
-	margin-left: 2px;
+body{
+	margin: 0 auto;
+}
+
+section{
+	background: white;
+	
+}
+
+.restrict{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.window{
+	height: 100vh;
+}
+
+.multiholder{
+	width: 80%;
+	margin-left: 20%;
+}
+.col{
 	display: block;
+	width: 48%;
+	float: left;
+	margin: 1% 0% 5% 1%;
+}
+
+/*-------- Div styles --------*/
+
+.blue{
+	background-color: #a7e8ed;
+}
+
+.darkgrey{
+	background-color: #676969;
+}	
+
+.center{
+	position: relative;
+	top: 25%;
+	margin:auto;
+
+} /*horizontal centering*/
+
+.stripes{
+	background: repeating-linear-gradient(
+	to right,
+	#a7e8ed,
+	#a7e8ed 2px,
+	#FFFFFF 2px,
+	#FFFFFF 4px
+	);
+	background: webkit-repeating-linear-gradient(
+	to right,
+	#a7e8ed,
+	#a7e8ed 2px,
+	#FFFFFF 2px,
+	#FFFFFF 4px
+	);
+}
+
+.stripesdgh{
+	background: linear-gradient(
+	to bottom,
+	#676969,
+	#676969 2px,
+	#FFFFFF 2px,
+	#FFFFFF
+	);
+	background-size: 100% 4px;
+}
+.overlay{
+	background-color: #E3E9E9;
+}
+
+.white{
+	background-color: #FFFFFF;
+}
+
+/*------- type styles ------*/
+
+.header{
+	font-family: galano;
+	font-size: 30pt;
+	line-height: 30pt;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+}
+
+.subhead{
+	font-family: galano;
+	font-size: 20pt;
+	line-height: 22pt;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+}
+
+.subhead2{
+	font-family: galano;
+	font-size: 16pt;
+	line-height: 20pt;
+	letter-spacing: 0.04em;
+}
+
+.subhead3{
+	font-family: galano;
+	font-size: 12pt;
+	line-height: 14pt;
+	letter-spacing: 0.04em;
+}
+
+.subhead4{
+	font-family: galano;
+	font-size: 10pt;
+	line-height: 12pt;
+	letter-spacing: 0.04em;
+}
+
+
+.bodieseverywhere{
+	font-family: galano2;
+	font-size: 15pt;
+	line-height: 1.5em;
+	letter-spacing: 0.08em;
+}
+
+.textplace1{
+	position: relative;
+	padding: 10%;
+	
+}
+
+.title{
+	text-align: center;
+}
+
+
+/*--------------------------------Header Styling-------------------------------*/
+
+#parallax1{
+	width: 100%;
+	overflow: none;
+}
+
+#showstopping {
+	margin: auto;
+
+}
+.bam{
+	width: 120%;
+	position: relative;
+	margin-left: -10%;
+	margin-top: 10%;
+
+}
+
+#titleone{
+	color: #676969;
+	width: 100%;
+	text-align: center;
+	margin: auto;
+}
+
+/*--------------------------------------Description-----------------------------*/
+#parallax2{
+	width: 100%;
+}
+
+#whatwhy{
+	margin-top: 1%;
+}
+
+#intro{
+	color: #676969;
+	text-align: left;
+}
+
+#middle{
+	width: 100%;
+	margin: auto;
+	padding: none;
+	position: relative;
+	float: left;
+}
+
+#side1{
+	width: 10%;
+	height: 100%;
+	position: absolute;
+	margin-left: -5%;
+	float: left;
+
 	padding: none;
 	overflow: hidden;
 }
 
-.wowthatfacethough img{
-	width: 100%;
-	height: 70%;
-	display: block;
+#whitebox1{
+	width: 50%;
+	height: 20%;
+	float: left;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	padding: none;
+	z-index: 4;
 }
 
-#eventdetails{
-	width: 100%;
-	background: #FFFFFF;
-	margin-top: 2px;
-	margin-bottom: 2px;
+#stripes1{
+	width: 50%;
+	height: 20%;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	z-index: 3;
+	float: left;
+	padding: none;
 }
+
+#box1b{
+	width: 100%;
+	height: 80%;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	opacity: 0.6;
+	z-index: 2;
+	padding: none;
+}
+
+#whitebox2{
+	width: 50%;
+	height: 20%;
+	float: left;
+	position: relative;
+	left: 0px;
+	margin-top: 0px;
+	padding: none;
+	z-index: 4;
+}
+
+#stripes2{
+	width: 50%;
+	height: 20%;
+	position: relative;
+	left: 0px;
+	margin-top: 0px;
+	z-index: 3;
+	padding: none;
+	float: left;
+}
+
+
+#side2{
+	width: 10%;
+	height: 100%;
+	position: absolute;
+	margin-top: auto;
+	margin-left: 95%;
+	overflow: none;
+	padding: none;
+	float: left;
+}
+
+#stripes3{
+	width: 50%;
+	height: 20%;
+	position: relative;
+	left: 0px;
+	margin-top: 0px;
+	z-index: 3;
+	float: left;
+}
+
+#whitebox3{
+	width: 50%;
+	height: 20%;
+	float: left;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	padding: none;
+	z-index: 4;
+}
+
+#box1c{
+	width: 100%;
+	height: 80%;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	opacity: 0.6;
+	z-index: 2;
+}
+
+
+#stripes4{
+	width: 50%;
+	height: 20%;
+	position: relative;
+	margin-left: 0px;
+	margin-top: 0px;
+	float: left;
+	padding: none;
+	z-index: 3;
+}
+
+#whitebox4{
+	width: 50%;
+	height: 20%;
+	float: left;
+	position: relative;
+	margin-left: 0px;
+	margin-top: 0px;
+	padding: none;
+	z-index: 4;
+}
+
+
+/*----------------------------------------Event info------------------------------*/
+#parallax3{
+	width: 100%;
+	position: relative;
+}
+
+#title2{
+	padding: 2%;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+#whenwhere{
+	margin: auto;
+	height: 500px;
+}
+
+.details1{
+	text-align: left;
+	color: #FFFFFF;
+}
+
+#stripes5{
+	width: 100%;
+	height: 100px;
+	position: relative;
+	float: left;
+	margin-top: 0;
+	
+}
+
+
+
+/*-----------------------------Gallery-------------------------------*/
+parallax4{
+	width: 100%;
+	height: auto;
+	position: relative;
+	margin-top: -40%;
+}
+
+/* title */
+
+#waitwho{
+	width: 100%;
+	height: 50%;
+	position: relative;
+	float: left;
+	margin: auto;
+	margin-top: 0;
+	margin-bottom: 20%;
+}
+
+
+
+#sidea{
+	width: 30%;
+	margin-left: 0;
+	float: left;
+}
+
+#bar1{
+	width: 30%;
+	height: 10%;
+	position: absolute;
+	margin-left: 0px;
+	float: left;
+	z-index: 3;
+}
+
+#finestripes1{
+	width: 10%;
+	height: 40%;
+	position: absolute;
+	margin-top: -5%;
+	float: left;
+	z-index: 4;
+}
+
+
+#sideb{
+	width: 30%;
+	float: left;
+	margin-left: -5%;
+}
+
+#bar2{
+	width: 30%;
+	height: 10%;
+	position: absolute;
+	margin-left: 75%;
+	float: left;
+	z-index: 3;
+
+}
+
+#finestripes2{
+	width: 10%;
+	height: 40%;
+	float: left;
+	position: absolute;
+	margin-left: 95%;
+	margin-top: -5%;
+	z-index: 4;
+
+}
+
+
+.finestripes{
+	background: repeating-linear-gradient(
+	to right,
+	transparent,
+	transparent 2px,
+	#FFFFFF 2px,
+	#FFFFFF 4px
+	);
+	background: webkit-repeating-linear-gradient(
+	to right,
+	#transparent,
+	transparent 2px,
+	#FFFFFF 2px,
+	#FFFFFF 4px
+	);
+}
+
+
+
+#titlebox{
+	width: 60%;
+	height: 40%;
+	background: #a7e8ed;
+	z-index: 1;
+	margin: auto;
+}
+
+#title3{
+	color: #676969;
+	height: 25%;
+	text-align: center;
+	padding: 5%;
+	width: 40%;
+	margin-left: 25%;
+	float: left;
+	z-index: 4;
+	margin-top: -37.5%;
+}
+
+#overlay3{
+	width: 100%;
+	height: 30%;
+	background: #E3E9E9;
+	opacity: 0.6;
+	position: relative;
+	margin-top: -13%;
+}
+
+
+#multiholder2{
+	width: 100%;
+	margin: auto;
+	margin-top: -7%;
+
+}
+
+
+
+/* pictures */
+
+
+
+#thosefaces {
+	width: 100%;
+	height: auto;
+	position: relative;
+	margin-top: 20%;
+}
+
+.wowthatfacethough {
+	height: 300px;
+	width: 48%;
+	display: inline-block;
+	float: left;
+	background: none;
+	padding-left: 2px;
+	padding-right: 2px;
+	margin-right: 8px;
+	margin-left: 8px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	overflow: hidden;
+	
+}
+
+.portrait{
+	height: 75%;
+	overflow: hidden;
+}
+
+.woopwoop{
+	width: 140%;
+	position: relative;
+	margin-top: -20%;	
+	margin-left: -20%;
+	
+}
+
+.detailsdetails{
+	background: #a7e8ed;
+	position: relative;
+	z-index: 2;
+	width: 100%;
+	height: 300px;
+	display: inline-block;
+	
+}
+
+.name{
+	font-family: galano2;
+	color: #676969;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.5em;	
+}
+
+/*-----------------------------------Map----------------------------------*/
+
 
 #butwhere{
 	width: 100%;
-	background: #FFFFFF;
+	position: relative;
+
 }
 
-iframe{
-	width: 100%;
-	height: 70%;
-	position: relative;
-	left: 0%;
+#minilogo{
+	min-width: 50%;
+	max-width: 100%;
+	margin-left: 0;
+	
 }
+
+#butreallywhere{
+	max-width: 40%;
+	height: 100%;
+	color: #676969;
+}
+
+#boxes{
+	background: #E3E9E9;
+	padding: 8% 8% 12% 12%;
+	margin-left: 0px;
+	color: #676969;
+}
+
+#mapswoo{
+	width: 100%;
+	height: 600px;
+	position: relative;
+	margin-left: 10%;
+	margin-top: 5%;
+	float: left;
+
+}
+
+/*-----------------------------------Responsive----------------------------------*/
+
+@media only screen and (max-width: 768px) {
+
+.window{
+	height: 100vh;
+}
+
+.bodieseverywhere{
+	font-family: galano2;
+	font-size: 10pt;
+	line-height: 1.5em;
+	letter-spacing: 0.08em;
+}
+
+.header{
+	font-size: 20pt;
+}
+
+.subhead{
+	font-size: 16pt;
+	line-height: 20pt;
+}
+
+.subhead2{
+	font-size: 12pt;
+	line-height: 14pt;
+}
+
+.subhead3{
+	font-size: 10pt;
+	line-height: 12pt;
+}
+
+.subhead4{
+	font-size: 8pt;
+	line-height: 10pt;
+}
+
+/*-------header-------*/
+#titleone{
+	width: 80%;
+	text-align: center;
+	margin: auto;
+}
+
+/*-------event info------*/
+
+
+.multiholder{
+	width: 100%;
+	margin-left: 10%;
+}
+.col{
+	display: block;
+	width: 80%;
+	margin: 1% 1% 1% 1%;
+}
+
+
+/*------gallery-------*/
+
+parallax4{
+	width: 100%;
+	height: auto;
+	position: relative;
+	margin-top: 0;
+}
+
+#title3{
+	height: 25%;
+	text-align: center;
+	padding: 5%;
+	width: 40%;
+	margin: 25%;
+	z-index: 4;
+	float: left;
+	margin-top: -37.5%;
+}
+
+#sidea{
+	display: none;
+}
+
+#sideb{
+	display: none;
+}
+
+
+#titlebox{
+	display: none;
+}
+
+#overlay3{
+	display: none;
+}
+
+.wowthatfacethough{
+	width: 100%;
+}
+
+/*-------map-------*/
+
+#butreallywhere1{
+	width: 100%;
+}
+
+#butreallywhere2{
+	width: 100%;
+}
+
+#boxes{
+	margin: 0 0 0 0;
+}
+
+#mapswoo{
+	width: 100%;
+	height: 400px;
+	position: relative;
+	margin-left: 0%;
+	margin-top: 5%;
+
+}
+
+
+} /*----end @media----/
+
