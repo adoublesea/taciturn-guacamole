@@ -602,7 +602,7 @@ parallax4{
 
 /*-----------------------------------Responsive----------------------------------*/
 
-@media (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 480px) {
+@media all and (max-width: 768px) {
 
 .window{
 	height: 100vh;
