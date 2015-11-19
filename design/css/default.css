@@ -523,16 +523,16 @@ section{
 
 .wowthatfacethough {
 	height: 300px;
-	width: 48%;
+	width: 47%;
 	display: inline-block;
 	float: left;
 	background: none;
 	padding-left: 2px;
 	padding-right: 2px;
-	margin-right: 8px;
-	margin-left: 8px;
-	margin-top: 8px;
-	margin-bottom: 8px;
+	margin-right: 1%;
+	margin-left: 1%;
+	margin-top: 1%;
+	margin-bottom: 1%;
 	overflow: hidden;
 	
 }
