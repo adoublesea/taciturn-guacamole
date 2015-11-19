@@ -655,6 +655,7 @@ section{
 
 /*-------description-----*/
 #parallax2{
+	margin-bottom: 10%;
 
 }
 
@@ -698,6 +699,8 @@ section{
 .wowthatfacethough{
 	width: 100%;
 	height: 400px;
+	margin-top: 1px;
+	margin-bottom: 1px;
 }
 
 
