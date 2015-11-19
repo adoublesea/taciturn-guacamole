@@ -653,6 +653,9 @@ section{
 	margin: auto;
 }
 
+/*-------description-----*/
+#parallax2
+
 /*-------event info------*/
 
 #whenwhere{
@@ -672,7 +675,7 @@ section{
 
 /*------gallery-------*/
 
-parallax4{
+#parallax4{
 	width: 100%;
 	height: auto;
 	position: relative;
