@@ -612,7 +612,6 @@ section{
 @media screen and (max-width: 768px) {
 
 .window{
-	height: 100vh;
 }
 
 .bodieseverywhere{
@@ -651,6 +650,7 @@ section{
 	width: 80%;
 	text-align: center;
 	margin: auto;
+	margin-bottom: 10%;
 }
 
 /*-------description-----*/
@@ -661,7 +661,7 @@ section{
 
 /*-------event info------*/
 #parallax3{
-	margin-top: 10%;
+	margin-bottom: 10%;
 }
 
 #whenwhere{
@@ -713,7 +713,7 @@ section{
 .wowthatfacethough{
 	width: 100%;
 	height: 300px;
-	margin-top: 2px;
+	margin-top: 2%;
 	margin-bottom: 0;
 }
 
