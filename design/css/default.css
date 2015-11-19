@@ -648,7 +648,7 @@ section{
 /*-------header-------*/
 
 #parallax1{
-	margin-bottom: -100%;
+	margin-bottom: -80%;
 }
 
 #titleone{
@@ -661,7 +661,7 @@ section{
 /*-------description-----*/
 #parallax2{
 	margin-top: 10%;
-	margin-bottom: 10%;
+	margin-bottom: 30%;
 }
 
 #side1{
