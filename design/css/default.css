@@ -676,7 +676,7 @@ section{
 /*-------event info------*/
 #parallax3{
 	height: 100%;
-	margin-top: 0%;
+	margin-top: 100%;
 	margin-bottom: 30%;
 	margin-left: auto;
 }
