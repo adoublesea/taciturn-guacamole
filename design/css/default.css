@@ -661,6 +661,7 @@ section{
 /*-------description-----*/
 #parallax2{
 	height: 100vh;
+	position: relative;
 	margin-top: 10%;
 	margin-bottom: 100%;
 }
@@ -676,6 +677,7 @@ section{
 /*-------event info------*/
 #parallax3{
 	height: 100vh;
+	position: relative;
 	margin-top: 10%;
 	margin-bottom: 10%;
 }
