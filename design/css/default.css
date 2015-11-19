@@ -654,12 +654,12 @@ section{
 }
 
 #parallax1{
-	margin-bottom: 50%;
+	margin-bottom: -50%;
 }
 
 /*-------description-----*/
 #parallax2{
-	margin-bottom: 10%;
+	margin-bottom: 100%;
 
 }
 
