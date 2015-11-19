@@ -44,7 +44,6 @@ $(document).ready(function() {
 					.setTween("#parallax3 > div", {y: "10%", ease: Linear.easeNone})
 					.addTo(controller);	
 					
-<<<<<<< HEAD
 					
 		$(window).on("resize", function(e) {
 			  if ($(window).width() < 769 && controller.enabled()) {
@@ -53,16 +52,6 @@ $(document).ready(function() {
 				controller.enabled(true);
 			  }
 			});				
-=======
-		$(window).on("resize", function(e) {
-	  if ($(window).width() < 768 && controller.enabled()) {
-		controller.enabled(false);
-	  } else if (!controller.enabled()) {
-		controller.enabled(true);
-	  }
-	});				
-						
->>>>>>> gh-pages
 	});
 	
 //responsive
