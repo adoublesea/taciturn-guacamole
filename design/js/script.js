@@ -37,12 +37,21 @@ $(document).ready(function() {
 					.addTo(controller);
 
 	new ScrollMagic.Scene({triggerElement: "#parallax2"})
-					.setTween("#parallax2 > div", {y: "105%", ease: Linear.easeNone})
+					.setTween("#parallax2 > div", {y: "80%", ease: Linear.easeNone})
 					.addTo(controller);
 					
 	new ScrollMagic.Scene({triggerElement: "#parallax3"})
 					.setTween("#parallax3 > div", {y: "10%", ease: Linear.easeNone})
-					.addTo(controller);		
+					.addTo(controller);	
+					
+					
+		$(window).on("resize", function(e) {
+			  if ($(window).width() < 769 && controller.enabled()) {
+				controller.enabled(false);
+			  } else if (!controller.enabled()) {
+				controller.enabled(true);
+			  }
+			});				
 	});
 	
 //responsive
