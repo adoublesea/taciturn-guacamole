@@ -661,8 +661,15 @@ section{
 /*-------description-----*/
 #parallax2{
 	margin-top: 10%;
-	margin-bottom: %10;
+	margin-bottom: 10%;
+}
 
+#side1{
+	display:none;
+}
+
+#side2{
+	display:none;
 }
 
 /*-------event info------*/
