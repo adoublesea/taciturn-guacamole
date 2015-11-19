@@ -11,9 +11,6 @@
 }
 
 
-.active{
-	display: none;
-}
 
 /* ------------- Layout Container styles -----------------*/
 
@@ -180,6 +177,10 @@ section{
 	width: 100%;
 	text-align: center;
 	margin: auto;
+}
+
+#darkblue{
+	opacity: 0.33;
 }
 
 /*--------------------------------------Description-----------------------------*/
@@ -351,6 +352,8 @@ section{
 
 #whenwhere{
 	margin: auto;
+		background-color: #676969;
+	overflow: hidden;
 	height: 500px;
 }
 
@@ -370,12 +373,15 @@ section{
 
 
 
+
+
+
 /*-----------------------------Gallery-------------------------------*/
-parallax4{
+#parallax4{
 	width: 100%;
 	height: auto;
 	position: relative;
-	margin-top: -40%;
+	margin-top: 10%;
 }
 
 /* title */
@@ -387,7 +393,7 @@ parallax4{
 	float: left;
 	margin: auto;
 	margin-top: 0;
-	margin-bottom: 20%;
+	margin-bottom: 0%;
 }
 
 
@@ -396,24 +402,28 @@ parallax4{
 	width: 30%;
 	margin-left: 0;
 	float: left;
+	overflow: hidden;
 }
 
 #bar1{
 	width: 30%;
-	height: 10%;
+	height: 30%;
 	position: absolute;
 	margin-left: 0px;
+	top: 22%;
 	float: left;
 	z-index: 3;
+	overflow: hidden;
 }
 
 #finestripes1{
 	width: 10%;
-	height: 40%;
+	height: 100%;
 	position: absolute;
-	margin-top: -5%;
+	top: 0%;
 	float: left;
 	z-index: 4;
+	overflow: hidden;
 }
 
 
@@ -421,26 +431,30 @@ parallax4{
 	width: 30%;
 	float: left;
 	margin-left: -5%;
+	overflow: hidden;
 }
 
 #bar2{
 	width: 30%;
-	height: 10%;
+	height: 30%;
 	position: absolute;
 	margin-left: 75%;
+	top: 22%;
 	float: left;
 	z-index: 3;
+	overflow: hidden;
 
 }
 
 #finestripes2{
 	width: 10%;
-	height: 40%;
+	height: 100%;
 	float: left;
 	position: absolute;
 	margin-left: 95%;
-	margin-top: -5%;
+	top: 0%;
 	z-index: 4;
+	overflow: hidden;
 
 }
 
@@ -470,6 +484,7 @@ parallax4{
 	background: #a7e8ed;
 	z-index: 1;
 	margin: auto;
+	overflow: hidden;
 }
 
 #title3{
@@ -481,23 +496,15 @@ parallax4{
 	margin-left: 25%;
 	float: left;
 	z-index: 4;
-	margin-top: -37.5%;
+	overflow: hidden;
 }
 
-#overlay3{
-	width: 100%;
-	height: 30%;
-	background: #E3E9E9;
-	opacity: 0.6;
-	position: relative;
-	margin-top: -13%;
-}
 
 
 #multiholder2{
 	width: 100%;
 	margin: auto;
-	margin-top: -7%;
+	margin-bottom: 5%;
 
 }
 
@@ -602,7 +609,7 @@ parallax4{
 
 /*-----------------------------------Responsive----------------------------------*/
 
-@media (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 480px) {
+@media all and (max-width: 768px) {
 
 .window{
 	height: 100vh;
@@ -610,7 +617,7 @@ parallax4{
 
 .bodieseverywhere{
 	font-family: galano2;
-	font-size: 10pt;
+	font-size: 14pt;
 	line-height: 1.5em;
 	letter-spacing: 0.08em;
 }
@@ -625,18 +632,18 @@ parallax4{
 }
 
 .subhead2{
-	font-size: 12pt;
-	line-height: 14pt;
+	font-size: 16pt;
+	line-height: 18pt;
 }
 
 .subhead3{
-	font-size: 10pt;
-	line-height: 12pt;
+	font-size: 16pt;
+	line-height: 18pt;
 }
 
 .subhead4{
-	font-size: 8pt;
-	line-height: 10pt;
+	font-size: 16pt;
+	line-height: 18pt;
 }
 
 /*-------header-------*/
