@@ -661,9 +661,9 @@ section{
 /*-------description-----*/
 #parallax2{
 	height: 100vh;
-	position: relative;
 	margin-top: 10%;
 	margin-bottom: 100%;
+	margin-left: auto;
 }
 
 #side1{
@@ -676,10 +676,10 @@ section{
 
 /*-------event info------*/
 #parallax3{
-	height: 100vh;
-	position: relative;
+	height: auto;
 	margin-top: 10%;
 	margin-bottom: 10%;
+	margin-left: auto;
 }
 
 #whenwhere{
