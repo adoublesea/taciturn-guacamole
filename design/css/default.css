@@ -179,11 +179,7 @@ section{
 	margin: auto;
 }
 
-<<<<<<< HEAD
 #transparency{
-=======
-#darkblue{
->>>>>>> gh-pages
 	opacity: 0.33;
 }
 
@@ -613,11 +609,7 @@ section{
 
 /*-----------------------------------Responsive----------------------------------*/
 
-<<<<<<< HEAD
 @media screen and (max-width: 768px) {
-=======
-@media all and (max-width: 768px) {
->>>>>>> gh-pages
 
 .window{
 	height: 100vh;
