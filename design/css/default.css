@@ -345,7 +345,7 @@ section{
 }
 
 #title2{
-	padding: 2%;
+	padding: 1%;
 	text-transform: uppercase;
 	color: #FFFFFF;
 }
@@ -654,12 +654,14 @@ section{
 }
 
 /*-------description-----*/
-#parallax2
+#parallax2{
+
+}
 
 /*-------event info------*/
 
 #whenwhere{
-	height: auto;
+	height: 100%;
 }
 
 .multiholder{
