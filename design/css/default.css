@@ -660,6 +660,9 @@ section{
 }
 
 /*-------event info------*/
+#parallax3{
+	margin-top: 10%;
+}
 
 #whenwhere{
 	height: 100%;
@@ -700,8 +703,8 @@ section{
 #title3{
 	text-align: center;
 	padding: 1%;
-	width: 40%;
-	margin-left: 25%;
+	width: 60%;
+	margin-left: 19%;
 	z-index: 4;
 	float: left;
 }
