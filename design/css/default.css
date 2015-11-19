@@ -685,6 +685,10 @@ section{
 	margin-top: 0;
 }
 
+#titlebox{
+	width: 100%;
+}
+
 #sidea{
 	display: none;
 }
@@ -696,7 +700,7 @@ section{
 #title3{
 	height: 25%;
 	text-align: center;
-	padding: 5%;
+	padding: 1%;
 	width: 40%;
 	margin: 25%;
 	z-index: 4;
