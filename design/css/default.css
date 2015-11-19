@@ -660,8 +660,9 @@ section{
 
 /*-------description-----*/
 #parallax2{
+	height: 100vh;
 	margin-top: 10%;
-	margin-bottom: 100%;
+	margin-bottom: 200%;
 	margin-left: auto;
 }
 
