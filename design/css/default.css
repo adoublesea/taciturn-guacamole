@@ -646,6 +646,11 @@ section{
 }
 
 /*-------header-------*/
+
+#parallax1{
+	margin-bottom: -200%;
+}
+
 #titleone{
 	width: 80%;
 	text-align: center;
@@ -653,13 +658,9 @@ section{
 	margin-bottom: 10%;
 }
 
-#parallax1{
-	margin-bottom: -50%;
-}
-
 /*-------description-----*/
 #parallax2{
-	margin-bottom: 100%;
+	margin-bottom: %0;
 
 }
 
